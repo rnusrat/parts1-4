@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlaG51bWEiLCJpZCI6IjY0ZDljZWVkMDZlMzFjYWVhMGE2ODNjOSIsImlhdCI6MTY5MjA0MTEwNiwiZXhwIjoxNjkyMDQ0NzA2fQ.nBmnok-XBeGlUKHUcMPAv-QmynlTLBUAvFl9PBx7Hio
+
+{
+    "title": "blog 134565",
+    "author": "numa",
+    "url": "blog.com/2",
+    "likes": 1001
+}
